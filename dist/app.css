@@ -578,10 +578,10 @@ video {
   text-align: center;
 }
 .wsr-font-consolas {
-  font-family: Consolas;
+  font-family: Consolas, Monaco, sans-serif;
 }
 .wsr-font-unispace {
-  font-family: Unispace, Monaco;
+  font-family: Unispace, Monaco, sans-serif;
 }
 .wsr-text-3xl {
   font-size: 1.875rem;
