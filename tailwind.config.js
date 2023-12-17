@@ -40,7 +40,7 @@ module.exports = {
               'light-20': '#f56199',
                 DEFAULT: '#e20e5e',
                 'dark-20':'#820836',
-                'dark-40': '#22020ec',
+                'dark-40': '#22020e',
                 'opacity-8': '#e20e5e14',
                 'opacity-12': '#e20e5e1F',
                 'opacity-16': '#e20e5e29',
@@ -48,8 +48,8 @@ module.exports = {
           },
 
           fontFamily: {
-              'unispace': ["Unispace"],
-              'consolas': ["Consolas"],
+              'unispace': ["Unispace", "Monaco", "sans-serif"],
+              'consolas': ["Consolas", "Monaco", "sans-serif"],
           },
 
           screens: {

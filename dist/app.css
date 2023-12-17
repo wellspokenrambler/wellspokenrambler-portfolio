@@ -581,7 +581,7 @@ video {
   font-family: Consolas;
 }
 .wsr-font-unispace {
-  font-family: Unispace;
+  font-family: Unispace, Monaco;
 }
 .wsr-text-3xl {
   font-size: 1.875rem;
@@ -619,15 +619,21 @@ video {
 }
 
 .wsr-text-shadow-link {
-  text-shadow: 2px 1px #820836;
+  text-shadow: 2px 1px #e20e5e;
 }
 
 .wsr-text-shadow-link:hover {
-  text-shadow: 3px 2px #e20e5e;
+  text-shadow: 2px 1px #f56199;
 }
 
 .wsr-text-shadow-link:active {
-  text-shadow: 4px 3px #e20e5e;
+  text-shadow: 2px 1px #fbc1d7;
+}
+
+@media (max-width: 904px) {
+  .wsr-text-shadow-heading {
+    text-shadow: 3px 2px #e20e5e;
+  }
 }
 
 @media (min-width: 905px) {
