@@ -12,5 +12,17 @@
 @import "tailwind";
 
 .wsr-text-shadow-heading {
-    text-shadow: 5px 4px 0px #e20e5e;
+    text-shadow: 6px 4px #e20e5e;
+}
+
+.wsr-text-shadow-link {
+    text-shadow: 2px 1px #820836 ;
+}
+
+.wsr-text-shadow-link:hover {
+    text-shadow: 3px 2px #e20e5e;
+}
+
+.wsr-text-shadow-link:active {
+    text-shadow: 4px 3px #e20e5e;
 }
