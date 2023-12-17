@@ -14336,7 +14336,7 @@ const VWave = {
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunkup_vue_second_attempt"] = self["webpackChunkup_vue_second_attempt"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunkwell_spoken_rambler"] = self["webpackChunkwell_spoken_rambler"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
