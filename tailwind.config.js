@@ -16,19 +16,35 @@ module.exports = {
     theme: {
       extend: {
           colors: {
-              'blue': {
-                  'light-4': '#F5F6FB',
-                  'light-8': '#ECEEF9',
-                  'light-12': '#E2E4F5',
-                  'light-16': '#D8DBF2',
-                  'light-32': '#B1B7E5',
-                  DEFAULT: '#0D20AF',
-                  'dark-12':'#0B1C99',
-                  'dark-16': '#0A1A92',
-                  'opacity-8': '#0D20AF14',
-                  'opacity-12': '#0D20AF1F',
-                  'opacity-16': '#0D20AF29',
-              },
+            'purple': {
+                'light-80': '#f6e7fd',
+                'light-60': '#d387f7',
+                'light-40': '#b028f0',
+                'light-20': '#750ca6',
+                DEFAULT: '#320547',
+                'opacity-8': '#32054714',
+                'opacity-12': '#3205471F',
+                'opacity-16': '#32054729',
+            },
+            'blue': {
+                'light-20': '#f2fbff',
+                DEFAULT: '#8edffd',
+                'dark-20':'#2ac3fb',
+                'dark-40': '#038abc',
+                'opacity-8': '#8edffd14',
+                'opacity-12': '#8edffd1F',
+                'opacity-16': '#8edffd29',
+            },
+            'rose': {
+              'light-40': '#fbc1d7',
+              'light-20': '#f56199',
+                DEFAULT: '#f56199',
+                'dark-20':'#820836',
+                'dark-40': '#22020ec',
+                'opacity-8': '#f5619914',
+                'opacity-12': '#f561991F',
+                'opacity-16': '#f5619929',
+            }
           },
 
           fontFamily: {
