@@ -493,13 +493,124 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.wsr-m-8 {
+  margin: 2rem;
+}
+.wsr-mt-4 {
+  margin-top: 1rem;
+}
 .wsr-flex {
   display: flex;
+}
+.wsr-h-full {
+  height: 100%;
+}
+.wsr-h-screen {
+  height: 100vh;
+}
+.wsr-w-full {
+  width: 100%;
+}
+.wsr-w-screen {
+  width: 100vw;
+}
+.wsr-flex-col {
+  flex-direction: column;
+}
+.wsr-items-center {
+  align-items: center;
+}
+.wsr-justify-start {
+  justify-content: flex-start;
+}
+.wsr-justify-center {
+  justify-content: center;
+}
+.wsr-rounded-xl {
+  border-radius: 0.75rem;
+}
+.wsr-border {
+  border-width: 1px;
+}
+.wsr-border-4 {
+  border-width: 4px;
+}
+.wsr-border-blue {
+  --tw-border-opacity: 1;
+  border-color: rgb(142 223 253 / var(--tw-border-opacity));
+}
+.wsr-bg-\[url\(\'\.\/_assets\/placeholder_bg\.png\'\)\] {
+  background-image: url('./_assets/placeholder_bg.png');
+}
+.wsr-bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+.wsr-from-purple-light-20 {
+  --tw-gradient-from: #750ca6 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(117 12 166 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.wsr-to-purple {
+  --tw-gradient-to: #320547 var(--tw-gradient-to-position);
+}
+.wsr-bg-bottom {
+  background-position: bottom;
+}
+.wsr-p-4 {
+  padding: 1rem;
+}
+.wsr-text-center {
+  text-align: center;
+}
+.wsr-font-consolas {
+  font-family: Consolas;
 }
 .wsr-font-unispace {
   font-family: Unispace;
 }
+.wsr-text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.wsr-font-bold {
+  font-weight: 700;
+}
+.wsr-leading-tight {
+  line-height: 1.25;
+}
+.wsr-text-blue {
+  --tw-text-opacity: 1;
+  color: rgb(142 223 253 / var(--tw-text-opacity));
+}
+.wsr-text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
 *, *:focus {
   outline: none !important;
   -webkit-tap-highlight-color: transparent !important;
+}
+
+.wsr-text-shadow-heading {
+  text-shadow: 5px 4px 0px #e20e5e;
+}
+
+@media (min-width: 905px) {
+
+  .md\:wsr-mt-8 {
+    margin-top: 2rem;
+  }
+
+  .md\:wsr-border-8 {
+    border-width: 8px;
+  }
+
+  .md\:wsr-p-8 {
+    padding: 2rem;
+  }
+
+  .md\:wsr-text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
 }

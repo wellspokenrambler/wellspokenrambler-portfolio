@@ -38,17 +38,18 @@ module.exports = {
             'rose': {
               'light-40': '#fbc1d7',
               'light-20': '#f56199',
-                DEFAULT: '#f56199',
+                DEFAULT: '#e20e5e',
                 'dark-20':'#820836',
                 'dark-40': '#22020ec',
-                'opacity-8': '#f5619914',
-                'opacity-12': '#f561991F',
-                'opacity-16': '#f5619929',
+                'opacity-8': '#e20e5e14',
+                'opacity-12': '#e20e5e1F',
+                'opacity-16': '#e20e5e29',
             }
           },
 
           fontFamily: {
               'unispace': ["Unispace"],
+              'consolas': ["Consolas"],
           },
 
           screens: {

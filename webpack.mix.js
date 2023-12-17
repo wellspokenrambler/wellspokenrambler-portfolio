@@ -15,7 +15,7 @@ mix.vue({
             notify: false,
             server: {
                 baseDir: "dist",
-                index: "placeholders.html"
+                index: "placeholder.html"
             }
         })
         .options({
